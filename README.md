@@ -1,5 +1,6 @@
 # MuG
-Learning Video Object Segmentation from Unlabeled Videos (CVPR2020)
+code for CVPR 2020 paper:
+Learning Video Object Segmentation from Unlabeled Videos
 ##
 
 ![](../master/overview.png)
