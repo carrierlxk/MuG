@@ -5,6 +5,7 @@ Learning Video Object Segmentation from Unlabeled Videos
 
 ![](../master/overview.png)
 
+The segmentation results of object--level zero-shot VOS (DAVIS16-val dataset), instance-level zero-shot VOS (DAVIS2017-test-dev dataset) and  one-shot VOS (DAVIS2016-val and DAVIS 2017-val datasets) under both unsupervised and weakly supervised conditionscan be download from [GoogleDrive](https://drive.google.com/file/d/1Gn3XmqPhaw7Z2CMEoyTy_w1n7xjdjbMh/view?usp=sharing).
 
 ### Other related projects/papers:
 [Zero-shot Video Object Segmentation via Attentive Graph Neural Networks](https://github.com/carrierlxk/AGNN)
