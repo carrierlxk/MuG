@@ -22,5 +22,6 @@ Run run_train_all_GOT_global_new_residual.sh for network training.
 [Saliency-Aware Geodesic Video Object Segmentation (CVPR15)](https://github.com/wenguanwang/saliencysegment)
 
 [Learning Unsupervised Video Primary Object Segmentation through Visual Attention (CVPR19)](https://github.com/wenguanwang/AGS)
+[Joint-task Self-supervised Learning for Temporal Correspondence](https://github.com/Liusifei/UVC)
 
 Any comments, please email: carrierlxk@gmail.com
