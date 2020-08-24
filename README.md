@@ -10,7 +10,8 @@ The segmentation results of object--level zero-shot VOS (DAVIS16-val dataset), i
 1. Setup environment: Pytorch 1.1.0, tqdm, scipy 1.2.1.
 2. Prepare training data. Download training datasets from Got10k tracking [dataset](http://got-10k.aitestunion.com/) or Youtube-VOS [dataset](https://youtube-vos.org/challenge/2019/). Generate a csv file in a format of 'GOT-10k_Train_000001,	120'. The first term is video name, the second term is video length.
 3. Download the weakly supervised saliency generation model and inference code from [here](https://github.com/zengxianyu/mws) and unsupervised saliency detection from [here] (https://github.com/ruanxiang/mr_saliency)
-4. Run run_train_all_GOT_global_new_residual.sh for network training.
+4. Change all the paths in MuG_GOT_global_new_residual.py, my_model_new_residual.py and libs/model_match_residual.py.
+Run run_train_all_GOT_global_new_residual.sh for network training.
 5. Run  run_ZVOS.sh for network inference.
 
 ### Other related projects/papers:
