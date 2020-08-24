@@ -18,6 +18,7 @@ The segmentation results of object--level zero-shot VOS (DAVIS16-val dataset), i
 Run run_train_all_GOT_global_new_residual.sh for network training.
 5. Run  run_ZVOS.sh for network inference.
 
+
 ### Other related projects/papers:
 [Zero-shot Video Object Segmentation via Attentive Graph Neural Networks](https://github.com/carrierlxk/AGNN)
 
@@ -26,6 +27,7 @@ Run run_train_all_GOT_global_new_residual.sh for network training.
 [Saliency-Aware Geodesic Video Object Segmentation (CVPR15)](https://github.com/wenguanwang/saliencysegment)
 
 [Learning Unsupervised Video Primary Object Segmentation through Visual Attention (CVPR19)](https://github.com/wenguanwang/AGS)
+
 [Joint-task Self-supervised Learning for Temporal Correspondence](https://github.com/Liusifei/UVC)
 
 Any comments, please email: carrierlxk@gmail.com
