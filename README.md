@@ -5,8 +5,12 @@ Learning Video Object Segmentation from Unlabeled Videos
 
 ![](../master/overview.png)
 
+## Pre-compute results
+
 The segmentation results of object--level zero-shot VOS (DAVIS16-val dataset), instance-level zero-shot VOS (DAVIS2017-test-dev dataset) and  one-shot VOS (DAVIS2016-val and DAVIS 2017-val datasets) under both unsupervised and weakly supervised conditionscan be download from [GoogleDrive](https://drive.google.com/file/d/1Gn3XmqPhaw7Z2CMEoyTy_w1n7xjdjbMh/view?usp=sharing).
+
 ## Code runing
+
 1. Setup environment: Pytorch 1.1.0, tqdm, scipy 1.2.1.
 2. Prepare training data. Download training datasets from Got10k tracking [dataset](http://got-10k.aitestunion.com/) or Youtube-VOS [dataset](https://youtube-vos.org/challenge/2019/). Generate a csv file in a format of 'GOT-10k_Train_000001,	120'. The first term is video name, the second term is video length.
 3. Download the weakly supervised saliency generation model and inference code from [here](https://github.com/zengxianyu/mws) and unsupervised saliency detection from [here] (https://github.com/ruanxiang/mr_saliency)
